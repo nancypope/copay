@@ -72,7 +72,7 @@ export class SettingsPage {
 
   ionViewWillEnter() {
     this.walletsBtc = this.profileProvider.getWallets({
-      coin: 'btc'
+      coin: 'via'
     });
     this.walletsBch = this.profileProvider.getWallets({
       coin: 'bch'
