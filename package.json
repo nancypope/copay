@@ -5,12 +5,12 @@
   "version": "4.0.7",
   "main": "electron/main.js",
   "keywords": [
-    "bitcoin",
+    "viacoin",
     "wallet",
-    "bitpay",
+    "viapay",
     "copay",
     "multisignature",
-    "bitcore"
+    "viacore"
   ],
   "homepage": "https://copay,io",
   "license": "MIT",
@@ -90,8 +90,9 @@
     "@nsalaun/ng-logger": "^5.0.0",
     "@types/papaparse": "^4.1.33",
     "angular2-moment": "^1.7.1",
+    "asn1.js-rfc5280": "^3.0.0",
+    "autoprefixer": "^7.2.4",
     "bitauth": "git+https://github.com/bitpay/bitauth.git#copay",
-    "bitcore-wallet-client": "^6.6.3",
     "buffer-compare": "^1.1.1",
     "cordova-android": "7.0.0",
     "cordova-clipboard": "^1.1.1",
@@ -130,6 +131,7 @@
     "simple-plist": "^0.2.1",
     "sw-toolbox": "^3.6.0",
     "ts-md5": "^1.2.2",
+    "bitcore-wallet-client": "https://github.com/viacoin/viacore-wallet-client.git",
     "zone.js": "^0.8.19"
   },
   "devDependencies": {
