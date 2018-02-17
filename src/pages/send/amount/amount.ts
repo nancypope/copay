@@ -155,9 +155,9 @@ export class AmountPage {
     this.availableUnits = [];
 
     this.availableUnits.push({
-      name: 'Bitcoin',
-      id: 'btc',
-      shortName: 'BTC',
+      name: 'Viacoin',
+      id: 'via',
+      shortName: 'VIA',
     });
 
     this.availableUnits.push({
