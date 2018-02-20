@@ -32,14 +32,6 @@
       </ion-item>
     </div>
 
-    <ion-item>
-      <ion-label stacked>{{'Coin' | translate}}</ion-label>
-      <ion-select formControlName="coin" (ionChange)="createForm.value.testnetEnabled = false">
-        <ion-option value="via">VIA</ion-option>
-        <ion-option value="bch">BCH</ion-option>
-      </ion-select>
-    </ion-item>
-
     <ion-item-divider></ion-item-divider>
 
     <ion-item (click)="showAdvOpts = !showAdvOpts">
