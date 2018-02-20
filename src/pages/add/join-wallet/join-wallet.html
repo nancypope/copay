@@ -17,14 +17,6 @@
       <ion-icon class="scanner-icon" name="qr-scanner" item-right (click)="openScanner()"></ion-icon>
     </ion-item>
 
-    <ion-item>
-      <ion-label stacked>{{'Coin' | translate}}</ion-label>
-      <ion-select formControlName="coin">
-        <ion-option value="via">VIA</ion-option>
-        <ion-option value="bch">BCH</ion-option>
-      </ion-select>
-    </ion-item>
-
     <ion-item-divider></ion-item-divider>
 
     <ion-item (click)="showAdvOpts = !showAdvOpts">
