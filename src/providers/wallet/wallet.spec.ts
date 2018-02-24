@@ -204,10 +204,10 @@ describe('Provider: Wallet Provider', () => {
       expect(protocol).toEqual('bitcoincash');
     });
 
-    it('should return bitcoin if coin is btc', () => {
+    it('should return viacoin if coin is via', () => {
       let coin = 'via';
       let protocol = walletProvider.getProtocolHandler(coin);
-      expect(protocol).toEqual('bitcoin');
+      expect(protocol).toEqual('viacoin');
     });
   });
 });
