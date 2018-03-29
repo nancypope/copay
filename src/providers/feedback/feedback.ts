@@ -11,7 +11,7 @@ export class FeedbackProvider {
     private http: HttpClient,
     private logger: Logger,
   ) {
-    this.URL = "https://script.google.com/macros/s/AKfycbybtvNSQKUfgzgXcj3jYLlvCKrcBoktjiJ1V8_cwd2yVkpUBGe3/exec";
+    this.URL = "https://copay-feedback.viacoin.org/api/feedback";
   }
 
   public send(dataSrc): Promise<any> {
