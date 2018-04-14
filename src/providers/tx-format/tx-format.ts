@@ -171,7 +171,7 @@ export class TxFormatProvider {
       // TODO: implement profileService.getWallet(tx.walletId)
       // TODO tx.wallet = profileService.getWallet(tx.walletId);
       tx.wallet = {
-        coin: "btc",
+        coin: "via",
         copayerId: "asdasdasdasd"
       }
       // hardcoded tx.wallet ^
